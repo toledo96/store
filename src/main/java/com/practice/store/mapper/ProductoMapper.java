@@ -4,7 +4,7 @@ import com.practice.store.dtos.request.ProductoRequest;
 import com.practice.store.dtos.response.ProductoResponse;
 import com.practice.store.entities.Producto;
 
-public class ProductMapper {
+public class ProductoMapper {
 
     public static Producto fromRequestDtoToEntity(ProductoRequest productoRequest){
         Producto producto = new Producto();
