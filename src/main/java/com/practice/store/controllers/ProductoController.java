@@ -2,7 +2,7 @@ package com.practice.store.controllers;
 
 import com.practice.store.dtos.request.ProductoRequest;
 import com.practice.store.dtos.response.ProductoResponse;
-import com.practice.store.services.impl.ProductoService;
+import com.practice.store.services.ProductoService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

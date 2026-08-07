@@ -1,4 +1,4 @@
-package com.practice.store.services.impl;
+package com.practice.store.services;
 
 import com.practice.store.dtos.request.ProductoRequest;
 import com.practice.store.dtos.response.ProductoResponse;

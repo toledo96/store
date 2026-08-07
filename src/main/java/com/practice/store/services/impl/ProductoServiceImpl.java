@@ -1,4 +1,4 @@
-package com.practice.store.services;
+package com.practice.store.services.impl;
 
 import com.practice.store.dtos.request.ProductoRequest;
 import com.practice.store.dtos.response.ProductoResponse;
@@ -6,7 +6,7 @@ import com.practice.store.entities.Producto;
 import com.practice.store.exceptions.producto.ProductoNoEncontradoException;
 import com.practice.store.mapper.ProductoMapper;
 import com.practice.store.repositories.ProductoRepository;
-import com.practice.store.services.impl.ProductoService;
+import com.practice.store.services.ProductoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
