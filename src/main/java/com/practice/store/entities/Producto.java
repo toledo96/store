@@ -31,7 +31,7 @@ public class Producto {
     private BigDecimal precioUnitario;
 
     @NotBlank(message = "El campo img no puede estar vacío")
-    private String img ;
+    private String img;
 
     @Column(unique = true, nullable = false)
     @NotBlank(message = "El SKU del producto no puede estar vacío")
